@@ -88,3 +88,52 @@ body {
   align-items: center;
   font-size: 11px;
 }
+
+/*middle-section*/
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 35px 0px 90px 0px;
+}
+
+.middle-header {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: #1f2937;
+  margin-bottom: 28px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px 0px 15px;
+}
+
+.middle .image {
+  display: flex;
+  border-style: solid;
+  border-color: #628cff;
+  border-width: 2.5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.middle .subtext {
+  display: flex;
+  font-size: 11px;
+  color: #6b7280;
+  width: 100px;
+  text-align: center;
+}
+
