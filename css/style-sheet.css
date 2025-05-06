@@ -12,7 +12,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  padding-bottom: 77px;
+  padding-bottom: 90px;
 }
 
 .header-section {
@@ -95,7 +95,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding: 35px 0px 90px 0px;
+  padding: 35px 0px 75px 0px;
 }
 
 .middle-header {
@@ -137,3 +137,26 @@ body {
   text-align: center;
 }
 
+/*quote-section*/
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 80px 200px;
+}
+
+.quote-text {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 23px;
+}
+
+.quote-source {
+  display: flex;
+  justify-content: right;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/*cta-section*/
